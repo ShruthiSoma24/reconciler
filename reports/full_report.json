@@ -1,0 +1,1315 @@
+{
+  "summary": {
+    "total_settlement_orders": 65,
+    "auto_matched": 41,
+    "batched_pairs_resolved": 11,
+    "exceptions": 13,
+    "match_rate_pct": 63.1,
+    "fully_reconciled_pct": 80.0
+  },
+  "exception_breakdown": {
+    "duplicate_ledger_entry": 5,
+    "missing_bank_credit": 4,
+    "low_confidence_match": 1,
+    "missing_ledger_entry": 3
+  },
+  "matched": [
+    {
+      "order_id": "ORD000001",
+      "confidence": 1.0,
+      "amount": 16056.78,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000002",
+      "confidence": 1.0,
+      "amount": 3659.54,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000003",
+      "confidence": 1.0,
+      "amount": 10662.66,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000004",
+      "confidence": 1.0,
+      "amount": 12731.81,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000005",
+      "confidence": 1.0,
+      "amount": 16316.13,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000009",
+      "confidence": 1.0,
+      "amount": 8546.54,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000013",
+      "confidence": 1.0,
+      "amount": 15538.29,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000016",
+      "confidence": 1.0,
+      "amount": 21687.79,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000017",
+      "confidence": 1.0,
+      "amount": 20884.94,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000018",
+      "confidence": 0.967,
+      "amount": 16819.34,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "fuzzy_utr_on_ledger"
+    },
+    {
+      "order_id": "ORD000019",
+      "confidence": 1.0,
+      "amount": 13445.67,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000020",
+      "confidence": 1.0,
+      "amount": 6893.71,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000021",
+      "confidence": 1.0,
+      "amount": 8241.21,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000022",
+      "confidence": 1.0,
+      "amount": 995.09,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000023",
+      "confidence": 1.0,
+      "amount": 5431.37,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000024",
+      "confidence": 1.0,
+      "amount": 12579.94,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000025",
+      "confidence": 1.0,
+      "amount": 3661.83,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000026",
+      "confidence": 1.0,
+      "amount": 18724.94,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000027",
+      "confidence": 1.0,
+      "amount": 5638.15,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000028",
+      "confidence": 1.0,
+      "amount": 18942.4,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000029",
+      "confidence": 1.0,
+      "amount": 4166.55,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000030",
+      "confidence": 1.0,
+      "amount": 9741.23,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000031",
+      "confidence": 0.967,
+      "amount": 24281.74,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "fuzzy_utr_on_ledger"
+    },
+    {
+      "order_id": "ORD000037",
+      "confidence": 0.967,
+      "amount": 21787.86,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "fuzzy_utr_on_ledger"
+    },
+    {
+      "order_id": "ORD000039",
+      "confidence": 1.0,
+      "amount": 23075.37,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000041",
+      "confidence": 1.0,
+      "amount": 20824.31,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000045",
+      "confidence": 1.0,
+      "amount": 4294.15,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000048",
+      "confidence": 1.0,
+      "amount": 11063.88,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000049",
+      "confidence": 1.0,
+      "amount": 5771.49,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000050",
+      "confidence": 1.0,
+      "amount": 5905.85,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000052",
+      "confidence": 1.0,
+      "amount": 21517.96,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000053",
+      "confidence": 1.0,
+      "amount": 16789.65,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000054",
+      "confidence": 1.0,
+      "amount": 23399.75,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000055",
+      "confidence": 1.0,
+      "amount": 19657.56,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000056",
+      "confidence": 1.0,
+      "amount": 2602.88,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000057",
+      "confidence": 0.967,
+      "amount": 11781.21,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "fuzzy_utr_on_ledger"
+    },
+    {
+      "order_id": "ORD000059",
+      "confidence": 1.0,
+      "amount": 2908.87,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000060",
+      "confidence": 1.0,
+      "amount": 3675.52,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000062",
+      "confidence": 1.0,
+      "amount": 21426.98,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000063",
+      "confidence": 1.0,
+      "amount": 20932.48,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    },
+    {
+      "order_id": "ORD000065",
+      "confidence": 1.0,
+      "amount": 4282.0,
+      "bank_strategy": "exact_utr_match",
+      "ledger_strategy": "exact_order_id_full_match"
+    }
+  ],
+  "batched_pairs": [
+    {
+      "order_id": "ORD000006",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000006-UTR202600000007",
+      "bank_amount": 18971.34,
+      "settlement_amount": 14812.79
+    },
+    {
+      "order_id": "ORD000007",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000006-UTR202600000007",
+      "bank_amount": 18971.34,
+      "settlement_amount": 4158.55
+    },
+    {
+      "order_id": "ORD000014",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000014-UTR202600000015",
+      "bank_amount": 42304.87,
+      "settlement_amount": 17672.38
+    },
+    {
+      "order_id": "ORD000015",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000014-UTR202600000015",
+      "bank_amount": 42304.87,
+      "settlement_amount": 24632.49
+    },
+    {
+      "order_id": "ORD000032",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000032-UTR202600000033",
+      "bank_amount": 25740.77,
+      "settlement_amount": 17105.42
+    },
+    {
+      "order_id": "ORD000035",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000035-UTR202600000036",
+      "bank_amount": 34709.66,
+      "settlement_amount": 21920.15
+    },
+    {
+      "order_id": "ORD000036",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000035-UTR202600000036",
+      "bank_amount": 34709.66,
+      "settlement_amount": 12789.51
+    },
+    {
+      "order_id": "ORD000042",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000042-UTR202600000043",
+      "bank_amount": 42410.02,
+      "settlement_amount": 21973.64
+    },
+    {
+      "order_id": "ORD000043",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000042-UTR202600000043",
+      "bank_amount": 42410.02,
+      "settlement_amount": 20436.38
+    },
+    {
+      "order_id": "ORD000046",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000046-UTR202600000047",
+      "bank_amount": 15545.61,
+      "settlement_amount": 5451.6
+    },
+    {
+      "order_id": "ORD000047",
+      "paired_order_id": null,
+      "bank_utr": "BATCHUTR202600000046-UTR202600000047",
+      "bank_amount": 15545.61,
+      "settlement_amount": 10094.01
+    }
+  ],
+  "exceptions": [
+    {
+      "order_id": "ORD000008",
+      "category": "duplicate_ledger_entry",
+      "detail": "2 ledger rows for ORD000008",
+      "amount": 8637.21
+    },
+    {
+      "order_id": "ORD000010",
+      "category": "missing_bank_credit",
+      "detail": "settled per gateway, absent from bank statement",
+      "amount": 21216.86
+    },
+    {
+      "order_id": "ORD000011",
+      "category": "duplicate_ledger_entry",
+      "detail": "2 ledger rows for ORD000011",
+      "amount": 18296.35
+    },
+    {
+      "order_id": "ORD000012",
+      "category": "missing_bank_credit",
+      "detail": "settled per gateway, absent from bank statement",
+      "amount": 9586.65
+    },
+    {
+      "order_id": "ORD000033",
+      "category": "low_confidence_match",
+      "detail": "best candidate confidence 0.77",
+      "amount": 8635.35
+    },
+    {
+      "order_id": "ORD000034",
+      "category": "duplicate_ledger_entry",
+      "detail": "2 ledger rows for ORD000034",
+      "amount": 10981.18
+    },
+    {
+      "order_id": "ORD000038",
+      "category": "duplicate_ledger_entry",
+      "detail": "2 ledger rows for ORD000038",
+      "amount": 9472.06
+    },
+    {
+      "order_id": "ORD000040",
+      "category": "missing_ledger_entry",
+      "detail": "payment confirmed, not recorded in internal ledger",
+      "amount": 12316.42
+    },
+    {
+      "order_id": "ORD000044",
+      "category": "duplicate_ledger_entry",
+      "detail": "2 ledger rows for ORD000044",
+      "amount": 19191.69
+    },
+    {
+      "order_id": "ORD000051",
+      "category": "missing_ledger_entry",
+      "detail": "payment confirmed, not recorded in internal ledger",
+      "amount": 15850.35
+    },
+    {
+      "order_id": "ORD000058",
+      "category": "missing_bank_credit",
+      "detail": "settled per gateway, absent from bank statement",
+      "amount": 2639.76
+    },
+    {
+      "order_id": "ORD000061",
+      "category": "missing_bank_credit",
+      "detail": "settled per gateway, absent from bank statement",
+      "amount": 21886.25
+    },
+    {
+      "order_id": "ORD000064",
+      "category": "missing_ledger_entry",
+      "detail": "payment confirmed, not recorded in internal ledger",
+      "amount": 12242.9
+    }
+  ],
+  "audit_trail": [
+    {
+      "timestamp": "2026-09-02T16:37:46.577412Z",
+      "order_id": "ORD000001",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.577458Z",
+      "order_id": "ORD000002",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.577474Z",
+      "order_id": "ORD000003",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.577486Z",
+      "order_id": "ORD000004",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.577497Z",
+      "order_id": "ORD000005",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.577828Z",
+      "order_id": "ORD000006",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000006-UTR202600000007 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578120Z",
+      "order_id": "ORD000007",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000006-UTR202600000007 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578126Z",
+      "order_id": "ORD000008",
+      "action": "exception",
+      "strategy": "duplicate_ledger_entries",
+      "confidence": 1.0,
+      "reason": "2 ledger entries found for one order_id \u2014 needs manual dedup",
+      "sources_involved": [
+        "settlement",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578142Z",
+      "order_id": "ORD000009",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578426Z",
+      "order_id": "ORD000010",
+      "action": "exception",
+      "strategy": "no_bank_candidate",
+      "confidence": 0.0,
+      "reason": "gateway shows settled but no matching bank credit found \u2014 possible fraud hold, reversal, or pending payout",
+      "sources_involved": [
+        "settlement",
+        "bank"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578432Z",
+      "order_id": "ORD000011",
+      "action": "exception",
+      "strategy": "duplicate_ledger_entries",
+      "confidence": 1.0,
+      "reason": "2 ledger entries found for one order_id \u2014 needs manual dedup",
+      "sources_involved": [
+        "settlement",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578731Z",
+      "order_id": "ORD000012",
+      "action": "exception",
+      "strategy": "no_bank_candidate",
+      "confidence": 0.0,
+      "reason": "gateway shows settled but no matching bank credit found \u2014 possible fraud hold, reversal, or pending payout",
+      "sources_involved": [
+        "settlement",
+        "bank"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.578743Z",
+      "order_id": "ORD000013",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579023Z",
+      "order_id": "ORD000014",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000014-UTR202600000015 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579294Z",
+      "order_id": "ORD000015",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000014-UTR202600000015 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579305Z",
+      "order_id": "ORD000016",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579318Z",
+      "order_id": "ORD000017",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579329Z",
+      "order_id": "ORD000018",
+      "action": "matched",
+      "strategy": "exact_utr_match+fuzzy_utr_on_ledger",
+      "confidence": 0.967,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579340Z",
+      "order_id": "ORD000019",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579350Z",
+      "order_id": "ORD000020",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579361Z",
+      "order_id": "ORD000021",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579370Z",
+      "order_id": "ORD000022",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579380Z",
+      "order_id": "ORD000023",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579390Z",
+      "order_id": "ORD000024",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579400Z",
+      "order_id": "ORD000025",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579410Z",
+      "order_id": "ORD000026",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579420Z",
+      "order_id": "ORD000027",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579430Z",
+      "order_id": "ORD000028",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579441Z",
+      "order_id": "ORD000029",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579451Z",
+      "order_id": "ORD000030",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579461Z",
+      "order_id": "ORD000031",
+      "action": "matched",
+      "strategy": "exact_utr_match+fuzzy_utr_on_ledger",
+      "confidence": 0.967,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.579806Z",
+      "order_id": "ORD000032",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000032-UTR202600000033 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580090Z",
+      "order_id": "ORD000033",
+      "action": "exception",
+      "strategy": "fuzzy_utr_amount_date+exact_order_id_full_match",
+      "confidence": 0.77,
+      "reason": "match confidence 0.77 below auto-match threshold (0.9)",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580097Z",
+      "order_id": "ORD000034",
+      "action": "exception",
+      "strategy": "duplicate_ledger_entries",
+      "confidence": 1.0,
+      "reason": "2 ledger entries found for one order_id \u2014 needs manual dedup",
+      "sources_involved": [
+        "settlement",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580373Z",
+      "order_id": "ORD000035",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000035-UTR202600000036 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580674Z",
+      "order_id": "ORD000036",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000035-UTR202600000036 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580686Z",
+      "order_id": "ORD000037",
+      "action": "matched",
+      "strategy": "exact_utr_match+fuzzy_utr_on_ledger",
+      "confidence": 0.967,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580691Z",
+      "order_id": "ORD000038",
+      "action": "exception",
+      "strategy": "duplicate_ledger_entries",
+      "confidence": 1.0,
+      "reason": "2 ledger entries found for one order_id \u2014 needs manual dedup",
+      "sources_involved": [
+        "settlement",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580702Z",
+      "order_id": "ORD000039",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580707Z",
+      "order_id": "ORD000040",
+      "action": "exception",
+      "strategy": "no_ledger_candidate",
+      "confidence": 0.0,
+      "reason": "bank credit and settlement exist but no internal order record \u2014 possible manual sale or unrecorded refund adjustment",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.580718Z",
+      "order_id": "ORD000041",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.581000Z",
+      "order_id": "ORD000042",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000042-UTR202600000043 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.581336Z",
+      "order_id": "ORD000043",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000042-UTR202600000043 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.581347Z",
+      "order_id": "ORD000044",
+      "action": "exception",
+      "strategy": "duplicate_ledger_entries",
+      "confidence": 1.0,
+      "reason": "2 ledger entries found for one order_id \u2014 needs manual dedup",
+      "sources_involved": [
+        "settlement",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.581362Z",
+      "order_id": "ORD000045",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.581740Z",
+      "order_id": "ORD000046",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000046-UTR202600000047 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582026Z",
+      "order_id": "ORD000047",
+      "action": "batched_pair",
+      "strategy": "batched_settlement_detected",
+      "confidence": 0.85,
+      "reason": "bank credit BATCHUTR202600000046-UTR202600000047 covers multiple orders",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582038Z",
+      "order_id": "ORD000048",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582049Z",
+      "order_id": "ORD000049",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582060Z",
+      "order_id": "ORD000050",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582065Z",
+      "order_id": "ORD000051",
+      "action": "exception",
+      "strategy": "no_ledger_candidate",
+      "confidence": 0.0,
+      "reason": "bank credit and settlement exist but no internal order record \u2014 possible manual sale or unrecorded refund adjustment",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582087Z",
+      "order_id": "ORD000052",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582098Z",
+      "order_id": "ORD000053",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582109Z",
+      "order_id": "ORD000054",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582119Z",
+      "order_id": "ORD000055",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582129Z",
+      "order_id": "ORD000056",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582140Z",
+      "order_id": "ORD000057",
+      "action": "matched",
+      "strategy": "exact_utr_match+fuzzy_utr_on_ledger",
+      "confidence": 0.967,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582410Z",
+      "order_id": "ORD000058",
+      "action": "exception",
+      "strategy": "no_bank_candidate",
+      "confidence": 0.0,
+      "reason": "gateway shows settled but no matching bank credit found \u2014 possible fraud hold, reversal, or pending payout",
+      "sources_involved": [
+        "settlement",
+        "bank"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582421Z",
+      "order_id": "ORD000059",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582432Z",
+      "order_id": "ORD000060",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582729Z",
+      "order_id": "ORD000061",
+      "action": "exception",
+      "strategy": "no_bank_candidate",
+      "confidence": 0.0,
+      "reason": "gateway shows settled but no matching bank credit found \u2014 possible fraud hold, reversal, or pending payout",
+      "sources_involved": [
+        "settlement",
+        "bank"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582741Z",
+      "order_id": "ORD000062",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582752Z",
+      "order_id": "ORD000063",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582757Z",
+      "order_id": "ORD000064",
+      "action": "exception",
+      "strategy": "no_ledger_candidate",
+      "confidence": 0.0,
+      "reason": "bank credit and settlement exist but no internal order record \u2014 possible manual sale or unrecorded refund adjustment",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T16:37:46.582768Z",
+      "order_id": "ORD000065",
+      "action": "matched",
+      "strategy": "exact_utr_match+exact_order_id_full_match",
+      "confidence": 1.0,
+      "reason": "three-way match within tolerance",
+      "sources_involved": [
+        "settlement",
+        "bank",
+        "ledger"
+      ]
+    }
+  ],
+  "scoring": {
+    "ground_truth_orders": 65,
+    "correctly_classified": 64,
+    "classification_accuracy_pct": 98.5,
+    "misclassified": [
+      {
+        "order_id": "ORD000033",
+        "truth": "batched_pair",
+        "predicted": "exception_low_confidence"
+      }
+    ],
+    "note": "Accuracy measures whether the engine put each order into the right BUCKET (clean match / batched pair / specific exception type) against the generator's known-true scenario for that order \u2014 not just whether it looked confident."
+  }
+}
